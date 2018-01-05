@@ -47,3 +47,19 @@ new CronJob('* * * * * *', function() {
 //   watcher.on('raw', (event, path, details) => {
 //     log('Raw event info:', event, path, details);
 // }, null, true, 'America/Los_Angeles')});
+
+
+//-----------------------------------------------------------//
+
+// Bellow is a demo of how fs.existsSync works and is written by
+//Patrick Kennedy
+
+// const fs = require('fs');
+
+// const path = ``/Users/${process.env.USER}/Documents/Zoom/2017-12-08 17.58.32 Patrick Kennedy's Zoom Meeting 670795319/``
+
+// if (fs.existsSync(path + 'zoom_0.mp4')) {
+//   console.log('wOOt!')
+// } else {
+//   console.log('waaaaah :(')
+// }
